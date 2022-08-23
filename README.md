@@ -30,4 +30,5 @@ Le lien vers votre repo gitlab contenant : les wireframes, les maquettes desktop
 
 # guide :
 - page principale: [cliquez ici](http://localhost:5500/public/index.html)
+- wireframes && maquettes : dossier visuel
 - &copy;Mohamed
