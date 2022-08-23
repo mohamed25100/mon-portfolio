@@ -1,0 +1,409 @@
+/* 1- index.html */
+
+body {
+  font-family: sans-serif;
+  margin: auto;
+  /*background-image: url("../images/data.gif");
+  */background-color: #aaaaaa;
+}
+
+.navbar {
+  background-color: #FFFFFF;
+  border: 3px solid black;
+  border-radius: 45px;
+  width: 900px;
+  min-width: 80%;
+  height: auto;
+}
+
+.navbar a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #FFFFFF;
+}
+
+.fornav
+{
+  list-style-type: none;
+  background-color: #aaaaaa;
+  text-align: center;
+  margin-left: 1px;
+}
+
+.art
+{
+  background-color: #FFFFFF;
+  border: 3px solid black;
+  width: 20%;
+  margin-bottom: 20px;
+  width: 580px;
+  margin-top: 20px;
+  margin-right: 10px;
+  min-height: 150px;
+}
+
+.art a
+{
+  color: #000000;
+  text-decoration: none;
+}
+
+.art a:hover
+{
+  color: white;
+}
+
+.artul
+{
+  list-style-type: upper-alpha;
+}
+
+.blogsize
+{
+  font-size: 0.8em;
+}
+
+#nav
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#photo_1
+{
+	border: 3px black solid;
+	border-radius: 45% / 45%;
+	height: 107px;
+	width: 120px;
+}
+
+#navboxul
+{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+  min-height: 85px;
+}
+
+#Accueil
+{
+  border: 1.5px solid black;
+  font-weight: bold;
+}
+
+#MesProjet
+{
+  border: 1.5px solid black;
+  font-weight: bold;
+}
+
+#Àproposdemoi
+{
+  border: 1.5px solid black;
+  font-weight: bold;
+}
+
+#Contactezmoi
+{
+  border: 1.5px solid black;
+  font-weight: bold;
+}
+
+#secone
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+#seconeartone
+{
+  position: relative;
+  width: 580px;
+  margin-right: 10px;
+  min-height: 170px;
+}
+
+#artleft
+{
+  border: 1.5px solid black;
+  border-radius: 10% / 10%;
+  width: 47%;
+  height: 90%;
+  position: absolute;
+  left: 1%;
+  top: 4%;
+  text-align: center;
+  background-color: #aaaaaa;
+}
+
+#artlefth1
+{
+  font-size: 1.1em;
+  margin-top: 15%;
+}
+
+#artlefth2
+{
+  font-size: 0.8em;
+}
+
+#artright
+{
+  border: 1.5px solid black;
+  width: 48%;
+  height: 95%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  word-break: break-all;
+}
+
+#artrighth1
+{
+  border-bottom: 2.5px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: #aaaaaa;
+  margin-top: -0.1%;
+  padding: 2.5%;
+}
+
+#seconearttwo
+{
+  position: relative;
+  width: 580px;
+  margin-right: 10px;
+  min-height: 170px;
+}
+
+#donutwhole
+{
+  position: absolute;
+  width: 250px;
+  height: 140px;
+  min-height: 90%;
+  top: 3%;
+  left: 1%;
+  width: 47%;
+}
+
+#artright2
+{
+  border: 1.5px solid black;
+  width: 48%;
+  height: 95%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+#artright2h1
+{
+  border-bottom: 2.5px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: #aaaaaa;
+  margin-top: -0.1%;
+  padding: 2.5%;
+}
+
+#seconeartthree
+{
+  position: relative;
+  width: 580px;
+  margin-right: 10px;
+  min-height: 150px;
+}
+
+#artright3
+{
+  border: 1.5px solid black;
+  width: 48%;
+  height: 95%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  word-break: break-all;
+}
+
+#artright3h1
+{
+  border-bottom: 2.5px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: #aaaaaa;
+  margin-top: -0.1%;
+  padding: 2.5%;
+}
+
+#simplon
+{
+  border: 1.5px solid black;
+  border-radius: 10% / 10%;
+  width: 47%;
+  height: 90%;
+  position: absolute;
+  left: 1%;
+  top: 4%;
+  text-align: center;
+  background-color: #aaaaaa;
+}
+
+#seconeartfour
+{
+  position: relative;
+  width: 580px;
+  margin-right: 10px;
+  min-height: 170px;
+}
+
+#blog
+{
+  position: absolute;
+  width: 250px;
+  height: 140px;
+  min-height: 90%;
+  top: 3%;
+  left: 1%;
+  width: 47%;
+}
+
+#artright4
+{
+  border: 1.5px solid black;
+  width: 48%;
+  height: 95%;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+
+#artright4h1
+{
+  border-bottom: 2.5px solid rgb(0, 0, 0);
+  text-align: center;
+  background-color: #aaaaaa;
+  margin-top: -0.1%;
+  padding: 2.5%;
+}
+
+#footer
+{
+  background-color: #FFFFFF;
+  border: 3px solid black;
+}
+
+#footer a
+{
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px 40px 5px 40px;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #FFFFFF;
+}
+
+#footul
+{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  justify-content: space-evenly;
+}
+
+#mail
+{
+  border: 1.5px solid black;
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+#mailflex
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#tél
+{
+  border: 1.5px solid black;
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+#télflex
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#linkedin
+{
+  border: 1.5px solid black;
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+#linkedinflex
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#twitter
+{
+  border: 1.5px solid black;
+  background-color: #aaaaaa;
+  text-align: center;
+}
+
+#twitterflex
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#développeur_web
+{
+  font-size: 0.8em;
+}
+
+/* a propos de moi */
+
+.article1
+{
+  background-color: #FFFFFF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 3px solid black;
+  width: 85%;
+}
+
+.article1 h1
+{
+  font-size: 75px;
+  text-align: center;
+  margin-top: none;
+  margin: 0px;
+}
+
+.article1 h2
+{
+  font-size: 50px;
+}
+
+.article1 p
+{
+  font-size: 25px;
+  text-align: justify;
+}
